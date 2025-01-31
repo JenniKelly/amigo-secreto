@@ -1,5 +1,10 @@
 # Amigo Secreto
 
+!['Imagem amigo secreto'](/assets/amigo-secreto.png)
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+
+
 ## 1. Introdução 
 Esta é uma aplicação que permite aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
@@ -16,3 +21,5 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 * **Visualizar a lista:** Os nomes inseridos aparecerão em uma lista abaixo do campo de entrada.
 
 * **Sorteio aleatório:** Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
+
+[def]: http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge
