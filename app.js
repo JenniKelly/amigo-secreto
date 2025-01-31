@@ -6,7 +6,7 @@ function adicionarAmigo(){
     let nomeInserido = document.querySelector('input').value;
 
     if(nomeInserido == ''){
-        alert('Erro: "Por favor, insira um nome."');
+        alert('Erro: Por favor, insira um nome.');
     } else{
         nomes.push(nomeInserido);
         console.log(nomes);
