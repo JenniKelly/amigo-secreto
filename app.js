@@ -2,7 +2,7 @@
 
 let amigos = [];
 
-// Percorro o array amigos e adiciona cada nome como um elemento <li> dentro de uma lista HTML.
+// Percorro o array amigos e adiciona cada nome como um elemento <li> dentro de uma lista HTML e mostrar na tela.
 function atualizarLista(){
     let lista = document.getElementById('listaAmigos');
     lista.innerHTML = '';
@@ -38,5 +38,16 @@ function adicionarAmigo(){
     }
 }
 
+function sortearAmigo(){
 
+    if (amigos.length == 0){
+        alert('Ainda não possui nome para sortear.');
+        return;
+    }    
 
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    let amigoSorteado = amigos[indiceAleatorio];
+    console.log(amigoSorteado);
+    document.getElementById('resultado').innerHTML = amigoSorteado;
+
+}    
