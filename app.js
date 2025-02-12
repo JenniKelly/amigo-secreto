@@ -39,12 +39,13 @@ function adicionarAmigo(){
 }
 
 function sortearAmigo(){
-
+    // validando a existencia de nomes
     if (amigos.length == 0){
         alert('Ainda não possui nome para sortear.');
         return;
     }    
 
+    // Sorteando um numero aleatorio usando Math.floor() e Math.random()
     let indiceAleatorio = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[indiceAleatorio];
     console.log(amigoSorteado);
